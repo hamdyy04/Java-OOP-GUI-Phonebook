@@ -103,13 +103,13 @@ private boolean isValidPhone(String phone) {
 This method checks if the phone number matches a specific pattern for Egyptian mobile numbers.
 
 # Name Validation
-``````java
+```java
 private boolean isValidName(String name) {
     String nameRegex = "^[a-zA-Z\\s]+$";
     return name.matches(nameRegex);
 }
 ```
-This method checks if the name contains only letters and spaces.
+This method checks if the name contains only letters and spaces
 
 # Utility Method
 ```java
@@ -122,43 +122,13 @@ private void clearFormFields() {
 This method clears the text fields.
 
 # Main Method
-The main method is not shown in the provided code, but it would typically create an instance of `jframe1` and make it visible.
-
-This code provides a basic contact management application with a GUI, allowing users to perform CRUD (Create, Read, Update, Delete) operations on a list of contacts.private boolean isValidName(String name) {
+This code provides a basic contact management application with a GUI, allowing users to perform CRUD (Create, Read, Update, Delete) operations on a contacts list
+```java
+contacts.private boolean isValidName(String name) {
     String nameRegex = "^[a-zA-Z\\s]+$";
     return name.matches(nameRegex);
 }
 ```
 This method checks if the name contains only letters and spaces.
 
-# Utility Method
-```java
-private void clearFormFields() {
-    jTextField1.setText("");
-    jTextField2.setText("");
-    jTextField3.setText("");
-}
-```
-This method clears the text fields.
-
-# Main Method
-The main method is not shown in the provided code, but it would typically create an instance of `jframe1` and make it visible.
-
-This code provides a basic contact management application with a GUI, allowing users to perform CRUD (Create, Read, Update, Delete) operations on a list of contacts.
-
-Similar code found with 3 license types
-
-hamdyy04: provide a small description for this app
-
-GitHub Copilot: This Java Swing application, named `jframe1`, is a simple contact management system. It allows users to add, edit, delete, and clear contacts in a table. The main features include:
-
-- **Add Contact**: Users can input a name, email, and phone number, which are validated before being added to the table.
-- **Edit Contact**: Users can select a contact from the table, load its details into the input fields, and modify them.
-- **Delete Contact**: Users can remove a selected contact from the table.
-- **Clear All Contacts**: Users can clear all contacts from the table.
-
-The application uses `DefaultTableModel` to manage the data in the `JTable` and includes validation methods for name, email, and phone number formats.
-
-hamdyy04: include the language and oop in sentence and be small 
-
-GitHub Copilot: This Java Swing application, `jframe1`, demonstrates object-oriented programming (OOP) principles by encapsulating contact management functionality within a class. It allows users to add, edit, delete, and clear contacts in a table. The application uses a `DefaultTableModel` to manage contact data and includes validation methods for names, emails, and phone numbers. The GUI components and event handling are managed using Swing, providing a user-friendly interface for managing contacts.
+This code provides a basic contact management application with a GUI, allowing users to Create, Read, Update, Delete operations on a list of contacts.

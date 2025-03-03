@@ -1,4 +1,4 @@
-# Java-Gui-Phonebook
+# Java-OOP-GUI-Phonebook
 This Java application demonstrates object-oriented programming (OOP) principles by encapsulating contact management functionality within a class. Users can add, edit, delete, and clear contacts in a table.
 
 ![cMtxo5ysNc](https://github.com/user-attachments/assets/514b9e48-cd23-4597-852e-c55826860091)

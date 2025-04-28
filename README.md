@@ -42,10 +42,10 @@ private void AddActionPerformed(java.awt.event.ActionEvent evt) {
     String name = jTextField1.getText();
     String email = jTextField2.getText();
     String phone = jTextField3.getText();
-    // Validation and adding row to table
+    // Validation and adding a row to the table
 }
 ```
-This method retrieves the text from the input fields, validates them, and adds a new row to the table if the inputs are valid.
+This method retrieves the text from the input fields, validates it, and adds a new row to the table if the input is valid.
 
 # Edit Button
 ```java
@@ -81,7 +81,7 @@ private void ConfirmEditActionPerformed(java.awt.event.ActionEvent evt) {
     // Update selected row with new data from input fields
 }
 ```
-This method updates the selected row in the table with the data from the input fields after validation.
+After validation, this method updates the selected row in the table with the data from the input fields.
 
 # Validation Methods
 The code includes methods to validate the input fields:
@@ -102,7 +102,7 @@ private boolean isValidPhone(String phone) {
     return phone.matches(phoneRegex);
 }
 ```
-This method checks if the phone number matches a specific pattern for Egyptian mobile numbers.
+This method checks if the phone number matches a specific pattern for Egyptian mobile numbers (010,011,012,015).
 
 # Name Validation
 ```java
